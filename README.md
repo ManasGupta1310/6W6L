@@ -16,6 +16,6 @@ The python scripts included are:
   <li><i>Echo</i></li>
   <li><i>Find</i></li>
   <li><i>pwd</i></li>
-  <li><i>Grep</i></li>
+  <li><i>Copy</i></li>
      
 </ul>
