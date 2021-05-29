@@ -11,4 +11,4 @@ if args.cat:
     if args.Filename:
         for line in f:
             print(line, end="")
-        print()
+        # print()
