@@ -42,7 +42,7 @@ Then we move on to the <b>Asynchronous IO</b> module. We came to know about asyn
 AsyncIO is a single-process single-threaded design which makes use of co-operative multi-tasking. Asyncio makes use of coroutines which is a specialized version of a Python generator function.
 </p>
 <p>
-AsyncIO uses await function which cedes control to some other function more readily available to do something while it awaits its results.
+AsyncIO uses await function which cedes control to some other function more readily available to do something while it awaits its results. We also come across the difference between time.sleep() and await.sleep(). You can run the codes and see the difference for yourself.
 </p>
 <p>
 There are several rules regarding the syntax of asyncio module.
