@@ -20,11 +20,7 @@ import argparse
 Ahead of immporting the library we have to initiate our parser, addd arguments and then pass the parser and its arguments.
 </p>
 <br>
-<!-- <ul type="dashed">
-    <li>parser=argparse.ArgumentParser()</li>
-    <li>parser.add_arguments()</li>
-    <li>args=parser.parse_args()</li>
-</ul> -->
+
 ```python
 parser=argparse.ArgumentParser()
 parser.add_arguments()
