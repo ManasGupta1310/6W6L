@@ -6,16 +6,16 @@
 Python is a very user friendly language which provides a wide range of libraries and modules which can be imported to make our code efficient and short. These libraries provide users with access to several features and helps users dive deep into the language.
 </p>
 <br><br>
-<p>
-# CLI
+
+## CLI
 We started our project by learning about Command Line Interface using Python scripts. We use Python code to implement command line scripts and run them the same way as we do in the command prompt. Python makes it easier to form a command line interface using in-built library <b>"argparse"</b>
-</p>
+
 We can import argparse library in our code as:
-<p>
+
 ```python
 import argparse
 ```
-</p>
+
 <p>
 Ahead of immporting the library we have to initiate our parser, addd arguments and then pass the parser and its arguments.
 </p>
@@ -35,10 +35,10 @@ args=parser.parse_args()
 We can create command lines like pwd, find, copy, echo, etc. as  I have added in this repository. Do check them out. They also use <b>sys</b> and <b>os</b> libraries.
 </p>
 <br><br>
-<p>
-# AsyncIO
+
+## AsyncIO
 Then we move on to the <b>Asynchronous IO</b> module. We came to know about asyncio and await keywords and their usage in python scripts. We also came across terms like <b>Threading</b>, <b>Multiprocessing</b>, <b>Concurrency</b> and <b>Parallelism</b>. 
-</p>
+
 <br>
 <ol>
     <li><b>Multiprocessing</b>: Multiprocessing is a means to effect parallelism, and it entails spreading tasks over a computer’s central processing units (CPUs, or cores). Multiprocessing is well-suited for CPU-bound tasks: tightly bound for loops and mathematical computations usually fall into this category.</li>
