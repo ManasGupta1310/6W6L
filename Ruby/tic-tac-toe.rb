@@ -1,3 +1,4 @@
+#displays the pattern after each entry by the user
 def display(cells)
     print("\t")
     for i in 0..8
@@ -16,6 +17,7 @@ def display(cells)
     print("\n\n")
 end
 
+#checks the condition for winning in each iteration
 def condition(cells)
     if cells[0][0]==cells[0][4] and cells[0][4]==cells[0][8] and cells[0][0]!=' '
         return 1
@@ -38,6 +40,7 @@ def condition(cells)
     end
 end
 
+#checks if t=macth will tie during each iteration
 def tie(cells)
     flag=0
     for i in  0..2 do
@@ -55,11 +58,14 @@ def tie(cells)
     end
 end
 
+
 cells=Array[[" "," ","|"," "," "," ","|"," "," "],[" "," ","|"," "," "," ","|"," "," "],[" "," ","|"," "," "," ","|"," "," "]]
 display(cells)
 k=0
+
+#starting taking user input--main code for the game
 while true do
-    if k%2==0
+    if k%2==0 #code for entry by user 1
         puts("User 1 : X")
         print("Enter the row and columm no. : ")
         i,j=gets.chomp().split(" ")
@@ -72,7 +78,7 @@ while true do
         else
             cells[i.to_i-1][4*(j.to_i-1)]='X'
         end
-    else
+    else #code fro taking entry by user 2
         puts("User 2 : O")
         print("Enter the row and columm no. : ")
         i,j=gets.chomp().split(" ")
@@ -89,6 +95,7 @@ while true do
 
     print("\n")
     display(cells)
+    #checking conditions for winning and tie
     if condition(cells)==1
         break
     end
@@ -100,6 +107,8 @@ while true do
 
     k=k+1
 end
+
+#print of final winner
 print("\n")
 if k%2==0
     k=1
