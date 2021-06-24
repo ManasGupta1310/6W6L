@@ -6,9 +6,12 @@ We go through the tour of Golang and attempt the exercises in between the blog. 
     ```go
     package main
     ```
-- Import libraries
+- Import libraries and use their respective functions
     ```Go
     import "fmt"
+    ```
+    ```Go
+    import "math"
     ```
 - Interfaces 
 - Concurrency
