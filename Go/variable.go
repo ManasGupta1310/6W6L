@@ -8,6 +8,6 @@ func main(){
 	a, b, c, fool=1,3,4,true //initialised the variable with values
 	fmt.Println(a,b,c,fool)
 
-	k:=2 //short variable declaration and initialisation
+	k:=2 //short variable declaration and initialisation here the variable itself recognises the datatype on basis of precision level of value
 	fmt.Println(k)
 }
