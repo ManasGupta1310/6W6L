@@ -8,6 +8,8 @@ Languages include:
 <ul>
   <li>Python</li>
   <li>Ruby</li>
+  <li>JavaScript</li>
+  <li>Go</li>
 </ul>
 
 You can find more details in the respected folder. 
