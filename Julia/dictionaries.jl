@@ -1,0 +1,7 @@
+d1=Dict("Car1"=> 30000, "Car2"=> 40000, "Car3"=> 50000)
+d2 =Dict("Car4"=> 70000, "Car5"=> 40050, "Car6"=> 50500)
+delete!(d2, "Car6")
+keys(d1)
+haskey(d2, "Cars3")
+values(d2)
+d3=merge(d1,d2)

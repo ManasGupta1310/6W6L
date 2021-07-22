@@ -1,0 +1,11 @@
+s1=Set(["Adidas", "Puma", "Nike"])
+s2=Set(["HRX", "Asian", "Sparx", "Nike"])
+println(union(s1,s2))
+println(intersect(s1,s2))
+println(setdiff(s1,s2))
+println(setdiff(s2,s1))
+push!(s1, "HRX")
+println(s1)
+println(in("HRX", s1))
+println(in("Adidas", s2))
+
