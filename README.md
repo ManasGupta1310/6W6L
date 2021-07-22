@@ -10,6 +10,8 @@ Languages include:
   <li>Ruby</li>
   <li>JavaScript</li>
   <li>Go</li>
+  <li>Julia</li>
+  <li>Scala</li>
 </ul>
 
 You can find more details in the respected folder. 
