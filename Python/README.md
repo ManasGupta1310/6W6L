@@ -21,4 +21,4 @@ The python scripts included are:
 </ul>
 
 <br>
- I have implemented  the Command Line Interface in a program Contact Book whihc ===ch saves contact, lists them and also can search for a contact name.
+ I have implemented  the Command Line Interface in a program Contact Book which saves contact, lists them and also can search for a contact name.
